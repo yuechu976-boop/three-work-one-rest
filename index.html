@@ -165,4 +165,17 @@ check.onclick = function(){
   }
 };
 
-reset.onclick
+
+reset.onclick = function(){
+  if(confirm("确定要重新开始吗？")){
+    day = 0;
+    count = 0;
+    render();
+  }
+};
+
+render();
+</script>
+</body>
+</html>
+
